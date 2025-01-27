@@ -1,0 +1,198 @@
+body{
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+.top-container {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+h1{
+    color: #66bfbf;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+}
+h2{
+    text-align: center;
+    font-size: 2.62rem;
+    color: #66bfbf;
+    padding-bottom: 10px;
+
+}
+.pro{
+    text-decoration: underline;
+}
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    
+
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+    color: #66bfbf;
+    height: 150px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+    height: 150px;
+}
+.middle-container{
+    margin: 100px 0;
+}
+.profile {
+    text-align: center; /* Centers the content inside */
+  }
+  
+  .profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image is not distorted */
+    border: 5px solid #66bfbf; /* Optional: Add a border */
+  }
+  .profile {
+    text-align: center; /* Centers the content inside */
+  }
+  
+  .profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image is not distorted */
+    border: 5px solid #66bfbf; /* Optional: Add a border */
+  }
+h2{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.skills > h2{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+.git-profile{
+    border-radius: 50%;
+}
+.coding > h3{
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+}
+.Api > h3{
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+}
+p{
+    line-height: 2;
+}
+.contact-me > h2{
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+
+}
+.contact-me > h3{
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+ 
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+    line-height: 1.2;
+    font-size: 1.5rem;
+}
+.btn{
+    background-color: #11cdd4;
+    border-radius: 5px;
+    display: inline;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.bottom-container{
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+.footer-link{
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.bottom-container p{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+@media (min-width: 319px) and (max-width: 900px){
+    body{
+        background-color: #40514e;
+    }
+    
+    .bottom-cloud{
+        height: 100px;
+       
+       
+    }
+    .intro{
+        color: bisque;
+    }
+    .coding > p{
+        color: antiquewhite;
+    }
+    .Api> p{
+        color: antiquewhite;
+    }
+    .contact-me .contact-message{
+        color: antiquewhite;
+    }
+    .top-cloud{
+        height: 120px;
+    }
+}
